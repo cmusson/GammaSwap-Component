@@ -1,0 +1,84 @@
+.container {
+  box-sizing: border-box;
+  padding: 0.5em;
+  padding-bottom: 1em;
+  width: 400px;
+  background: linear-gradient(90deg, rgba(30, 34, 61, 0.9), rgba(38, 43, 71, 0.9));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.options {
+  display: flex;
+  gap: 0.5em;
+  align-items: flex-start;
+  height: 80px;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-weight: normal;
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-weight: normal;
+  color: grey;
+}
+
+.input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.25em;
+  background: #131021;
+  color: white;
+  border: none;
+  font-size: 20px;
+  outline: none;
+}
+
+.info {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ethInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 90%;
+  padding: 0.25em;
+  background: #131021;
+  border: none;
+  outline: none;
+}
+
+.ethInfo > h3 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.grey > h3 {
+  color: grey;
+}
+
+.submit {
+  font-size: 17px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1em 0.5em;
+  background-color: #5940db;
+  width: 90%;
+  text-align: center;
+}
+
+.submit:hover {
+  cursor: pointer;
+  background-color: rgb(89, 64, 219, 0.5);
+}

@@ -1,0 +1,21 @@
+.container {
+  position: relative;
+  width: 90%;
+}
+
+.input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.25em;
+  background: #131021;
+  color: white;
+  border: none;
+  font-size: 20px;
+  outline: none;
+}
+
+.container > h3 {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
