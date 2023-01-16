@@ -90,23 +90,3 @@ const Card = () => {
 };
 
 export default Card;
-
-/* PnL is the way traders refer to the daily change to the value of their trading positions. 
-        The general formula for PnL is PnL = Value today minus value yesterday. 
-        So if you are a trader and your positions were worth $100 yesterday and today they are worth $105, then your PnL for the day was $5. */
-
-// const PnLFunc = (x) => { max(x-100, 0)}
-// diff for call, put and straddle
-// max? strike price of Put price of the put
-// x? price of the put
-//
-
-//PnL
-
-// Long put
-// strike price at price of loan
-// - cost of loan
-
-// Long put
-// strike price at price of loan
-// - cost of loan
