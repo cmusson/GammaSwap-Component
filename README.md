@@ -4,9 +4,8 @@ A card component that allows the user to take out a loan against ETH in the form
 
 Written in React/TS with vite
 
-To run locally:
-# open
-# CLI - npm i
-# CLI - npm run dev
+# To run locally:
+open
+CLI - npm i
+CLI - npm run dev
 
-Thank you for the assessment, I hope you enjoy looking over it all.
